@@ -1,1 +1,1 @@
-git config --get remote.origin.url
+https://github.com/ichisadashioko/raspizero-hid.git
