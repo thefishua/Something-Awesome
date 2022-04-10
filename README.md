@@ -43,11 +43,11 @@ Summary:
 - Also the file is run every day at 1pm enabling a attacker the option of stacking out there target at certain times without the need for the target to physically plug the usb in every time
 - However, there is still current issues such as a forensics team could easily see that there is a random script downloaded on the target computer and if they stop the script at the right time they can track it back to my github
 ## Reflection 
-- Future Projects that were Missed
--- Near the end of the project I had planned to make a 3D model for the rubber ducky, but ran out of time. This would make the rubber ducky look less suspicious and also more incognito. To do this I would've used fusion360 and a 3D printer to create the design. 
--- Other tools that I wanted to create was a keylogger that would make a file in the rubber ducky that would then get sent to a google drive. For this I would just need the rubber ducky to check what keys had been pressed and output that to a file. This file would then be uploaded. 
--- The other tool that could be create is a screen recorder that could record the screen of the target
-- Stuff that went Wrong
--- During the project alot of stuff went wrong that enabled myself to learn. This included bricking the system, debugging the rubber ducky and loss of connection. For next time I would've just changed my goal of bypassing antivirus software to just launching the powershell in admin mode. This would've then allowed for more time for the other tools/projects I had for the something awesome. 
+Future Projects that were Missed
+- Near the end of the project I had planned to make a 3D model for the rubber ducky, but ran out of time. This would make the rubber ducky look less suspicious and also more incognito. To do this I would've used fusion360 and a 3D printer to create the design. 
+- Other tools that I wanted to create was a keylogger that would make a file in the rubber ducky that would then get sent to a google drive. For this I would just need the rubber ducky to check what keys had been pressed and output that to a file. This file would then be uploaded. 
+- The other tool that could be create is a screen recorder that could record the screen of the target
+Stuff that went Wrong
+- During the project alot of stuff went wrong that enabled myself to learn. This included bricking the system, debugging the rubber ducky and loss of connection. For next time I would've just changed my goal of bypassing antivirus software to just launching the powershell in admin mode. This would've then allowed for more time for the other tools/projects I had for the something awesome. 
 
 
