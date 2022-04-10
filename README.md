@@ -47,6 +47,7 @@ Future Projects that were Missed
 - Near the end of the project I had planned to make a 3D model for the rubber ducky, but ran out of time. This would make the rubber ducky look less suspicious and also more incognito. To do this I would've used fusion360 and a 3D printer to create the design. 
 - Other tools that I wanted to create was a keylogger that would make a file in the rubber ducky that would then get sent to a google drive. For this I would just need the rubber ducky to check what keys had been pressed and output that to a file. This file would then be uploaded. 
 - The other tool that could be create is a screen recorder that could record the screen of the target
+
 Stuff that went Wrong
 - During the project alot of stuff went wrong that enabled myself to learn. This included bricking the system, debugging the rubber ducky and loss of connection. For next time I would've just changed my goal of bypassing antivirus software to just launching the powershell in admin mode. This would've then allowed for more time for the other tools/projects I had for the something awesome. 
 
